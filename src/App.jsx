@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="bg-slate-800">
-      <div className="w-3/4 bg-slate-000 text-white min-h-screen mx-auto">
+      <div className="max-w-6xl w-full bg-slate-800 text-white min-h-screen mx-auto px-4">
         {/* Navigation */}
         <nav className="py-10 px-10 flex justify-between items-center sticky top-0 bg-green-500 text-black rounded-b-md border border-green-900 border-b-4 shadow-xl">
-          <ul className="flex space-x-6">
+          <ul className="hidden md:flex space-x-6">
             <li><a href="#home">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -70,12 +70,12 @@ function App() {
             <div className="h-1 bg-green-500 w-full my-5"></div>
           </div>
           <div className="flex justify-center space-x-6 mt-6">
-            <img src={javalogo} alt="Java" className="h-32 w-32"/>
-            <img src={javascriptlogo} alt="JavaScript" className="h-32 w-32"/>
-            <img src={csslogo} alt="CSS" className="h-32 w-32"/>
-            <img src={htmllogo} alt="HTML" className="h-32 w-32"/>
-            <img src={reactlogo} alt="React" className="h-32 w-32"/>
-            <img src={awslogo} alt="AWS" className="h-32 w-32"/>
+            <img src={javalogo} alt="Java" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
+            <img src={javascriptlogo} alt="JavaScript" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
+            <img src={csslogo} alt="CSS" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
+            <img src={htmllogo} alt="HTML" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
+            <img src={reactlogo} alt="React" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
+            <img src={awslogo} alt="AWS" className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32"/>
           </div>
         </section>
 
@@ -91,15 +91,15 @@ function App() {
             {/* JetSetGo */}
 
             <li className="mb-12">
-              <div className="grid grid-cols-8 gap-6">
-                <div className="col-span-2">
+              <div className="grid grid-cols-1 md:grid-cols-8 gap-6">
+                <div className="col-span-2 md:col-span-2">
                   <img 
                     src={jetsetgo} 
                     alt="JetSetGo" 
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
-                <div className="col-span-6 flex flex-col justify-center">
+                <div className="col-span-6 md:col-span-6">
                   <h3 className="text-2xl font-medium my-3">JetSetGo</h3>
                   <p className="text-gray-300">A full-stack travel and tourism web application designed to make trip planning simple and seamless.
                         Users can register, log in, and book flights and hotels to their favorite destinations, while the admin has a dedicated dashboard to manage 
@@ -119,15 +119,15 @@ function App() {
             </li>
 
             <li className="mb-12">
-              <div className="grid grid-cols-8 gap-6">
-                <div className="col-span-2">
+              <div className="grid grid-cols-1 md:grid-cols-8 gap-6">
+                <div className="col-span-2 md:col-span-2">
                   <img 
                     src={rollsbythepound} 
                     alt="RollsByThePound" 
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
-                <div className="col-span-6 flex flex-col justify-center">
+                <div className="col-span-6 md:col-span-6">
                   <h3 className="text-2xl font-medium my-3">Rolls By The Pound</h3>
                   <p className="text-gray-300">Rolls By The Pound is a small-business bakery located in Newark, OH. 
                     This web application serves as an online ordering platform for the bakery, allowing users to create profiles, browse the menu, customize items, and add them to their cart for checkout.
@@ -147,8 +147,8 @@ function App() {
             </li>
 
             <li className="mb-12">
-              <div className="grid grid-cols-8 gap-6">
-                <div className="col-span-2">
+              <div className="grid grid-cols-1 md:grid-cols-8 gap-6">
+                <div className="col-span-2 md:col-span-2">
                   <div className="aspect-square">
                     <img 
                       src={movielab} 
@@ -157,7 +157,7 @@ function App() {
                     />
                   </div>
                 </div>
-                <div className="col-span-6 flex flex-col justify-center">
+                <div className="col-span-6 md:col-span-6">
                   <h3 className="text-2xl font-medium my-3">MovieLab</h3>
                   <p className="text-gray-300">MovieLab is a cross-platform mobile application built with Flutter and Dart that allows users to browse a list of movies
                     with details such as descriptions, ratings, and other useful information. Each movie entry is clickable, giving an interactive experience where the users can view in 
