@@ -101,9 +101,9 @@ function App() {
                 </div>
                 <div className="col-span-6 flex flex-col justify-center">
                   <h3 className="text-2xl font-medium my-3">JetSetGo</h3>
-                  <p className="text-gray-300">A full-stack travel and tourism web application designed to make trip planning simple adn seamless. 
-                    Users can regiester, log in and book flights and hotels to their favorite destinations, while the admin has a dedicated dashboard to manafe flight and 
-                    hotel data, view user accounts, and oversee bookings.
+                  <p className="text-gray-300">A full-stack travel and tourism web application designed to make trip planning simple and seamless.
+                        Users can register, log in, and book flights and hotels to their favorite destinations, while the admin has a dedicated dashboard to manage 
+                        flight and hotel data, view user accounts, and oversee bookings.
                   </p>
 
                   <div className="flex flex-wrap gap-1">
@@ -130,8 +130,8 @@ function App() {
                 <div className="col-span-6 flex flex-col justify-center">
                   <h3 className="text-2xl font-medium my-3">Rolls By The Pound</h3>
                   <p className="text-gray-300">Rolls By The Pound is a small-business bakery located in Newark, OH. 
-                    This web application serves as an online ordering platform for their bakery, allowing users to create profiles, browse the menu, customize items, and add them to their cart for checkout. 
-                    Users will also have access to their past orders with the ability to quickly reorder directly from their dashboard, making the experience seamless and convenient.
+                    This web application serves as an online ordering platform for the bakery, allowing users to create profiles, browse the menu, customize items, and add them to their cart for checkout.
+                    Users also have access to their past orders, with the ability to quickly reorder directly from their dashboard, making the experience seamless and convenient.
                   </p>
 
                   <div className="flex flex-wrap gap-1">
